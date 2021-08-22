@@ -1,0 +1,105 @@
+@media(prefers-color-scheme: dark){
+ :root{
+     --primary-background:#313131;
+     --primary-text-color:#ffffff;
+ }   
+ .nav__content{
+     background: #0C0C0C;
+ }
+ body{
+     background:#313131;
+ }
+ .header__prenav-link{
+     color: var(--primary-text-color);   
+ }
+ .header__content-btn{
+     border: 1px solid #FFFFFF ;
+ }
+ .header__prenav-link:hover{
+     color: var(--primary-text-color);
+ }
+ .header__content-title{
+     color: var(--primary-text-color);
+ }
+ .carousel-indicators  [data-bs-target].active {
+    background:#ffffff;
+}
+ .img-2{
+    content: url('../Imges/small-night-1.png');
+}
+.img-3{
+    content: url('../Imges/small-night-2.png');
+}
+.nav__info{
+    background: #313131;
+}
+.nav__logo::before{
+    content: url('../Imges/logo\ night.png');
+}
+.nav__footer{
+border: var(--primary-text-color) solid 1px;
+}
+.header__info-title{
+    color: var(--primary-text-color);
+}
+.header__info-text{
+    color: var(--primary-text-color);
+}
+.header__info-description{
+    color: var(--primary-text-color);
+}
+.header__info-link{
+    color: var(--primary-text-color);
+}
+.header__info-btn{
+border: 1px solid #FFFFFF;
+}
+.header__info-href{
+border: 1px solid #FFFFFF;
+}
+.main__apple-img{
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.main__tablets-img{
+   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.main__right-img{
+   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.main__seller-img{
+   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.footer{
+    background: black;
+}
+.main__content-btn{
+    border:var(--primary-text-color) 1px solid ;
+}
+.main__apples-title, .main__apple-text, .main__apple-size{
+    color: var(--primary-text-color);
+}
+.main__tablets-title, .main__tablets-text, .main__tablets-size{
+    color: var(--primary-text-color);
+}
+.main__console-img{
+    content: url('../Imges/playstaion-night-5.png');
+}
+.main__console-btn{
+    border: 1px solid var(--primary-text-color);
+}
+.main__console-title{
+    color: var(--primary-text-color);
+}
+.main__seller-title, .main__seller-text, .main__seller-size{
+    color: var(--primary-text-color);
+}
+.main__xbox-img{
+    content: url('../Imges/xbox-night.png');
+}
+.main__xbox-title, .main__xbox-text{
+    color: var(--primary-text-color);
+}
+.main__second-title, .main__second-text{
+    color: var(--primary-text-color);
+}
+}
