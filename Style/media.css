@@ -103,3 +103,65 @@ border: 1px solid #FFFFFF;
     color: var(--primary-text-color);
 }
 }
+@media(max-width:1200px){
+    .rectangle_2{
+        max-width: 50px;
+        width: 100%;
+        height: 50px;
+        left: 10px;
+        bottom: 5px;
+    }
+    .rectangle_3{
+        max-width: 50px;
+        width: 100%;
+        height: 50px;
+        left: 10px;
+        bottom: 5px;
+    }
+    .header__nav{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+@media(max-width:990px){
+    /* .header__content-info{
+        display: none;
+    } */
+    .main__contents{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .main__tablets-title{
+        text-align: center;
+    }
+    .main__apples-title{
+        text-align: center;
+    }
+    .main__seller-title{
+        text-align: center;
+    }
+    .main__console-title{
+        margin-bottom: 40px;
+        font-size: 30px;
+    }
+}
+@media(max-width:770px){
+    .main__apple, .main__tablets, .main__seller{
+        justify-content: center ;
+    }
+
+    .main__console{
+        grid-template-columns: none;
+    }
+    
+}
+@media(max-width:550px){
+    .d-flex{
+        flex-wrap: wrap;
+    }
+    .footer__item-btn{
+        margin-top: 15px;
+    }
+  
+}
